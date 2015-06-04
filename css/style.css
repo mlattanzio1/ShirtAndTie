@@ -11,9 +11,17 @@
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 16px;
 		line-height: 26px;
 		font-weight: 600;
+	}
+
+	.footer p {
+		text-align: center;
+	}
+
+	a {
+		color: #1d1d1d;
 	}
 
 	h1 {
@@ -89,7 +97,7 @@
 
 	.right {
 		width: 40%;
-		height: 550px;
+		height: 600px;
 		display: inline-block;
 		text-align: center;
 	}

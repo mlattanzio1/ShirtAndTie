@@ -1,0 +1,141 @@
+<style>
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+	body {
+		font-family: 'Oswald';
+		background-color: #ececec;
+		color: #1d1d1d;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 26px;
+		font-weight: 600;
+	}
+
+	h1 {
+		font-size: 100px;
+		line-height: 10px;
+	}
+
+	h2 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 40px;
+		text-transform: uppercase;
+		padding-bottom: 5px;
+		display: inline-block;
+		border-bottom: 2px solid #1d1d1d;
+	}
+
+	h4 {
+		font-size: 32px;
+		line-height: 32px;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		display: inline-block;
+		border-bottom: 2px solid #1d1d1d;
+	}
+
+	.shirt {fill: #F7EF75;}
+	.shirt1 {fill: #F7EF75;}
+	.shirt2 {fill: #F7EF75;}
+	.shirt3 {fill: #F7EF75;}
+	.shirt4 {fill: #F7EF75;}
+	.shirt5 {fill: #F7EF75;}
+	.tie {fill: #616266;}
+	.tie1 {fill: #616266;}
+	.tie2 {fill: #616266;}
+	.tie3 {fill: #616266;}
+	.tie4 {fill: #616266;}
+	.tie5 {fill: #616266;}
+	.buttons {fill: #FFFFFF;}
+
+	input.color {
+		width: 116px;
+		height: 116px;
+		text-align: center;
+		border: none;
+		outline: none;
+	}
+
+	input {
+		width: 50px;
+		height: 50px;
+		vertical-align: middle;
+	}
+
+	input.hide {
+		display: none;
+	}
+
+	.wrapper {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	.left {
+		padding-left: 40px;
+		width: 60%;
+		float: left;
+	}
+
+	.right {
+		width: 40%;
+		height: 550px;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.bottom {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+	.bottom div {
+		padding-top: 25px;
+		display: inline-block;
+		width: 19.5%;
+	}
+
+	/* Toggle Button */
+
+	label.toggle {
+		text-align: bottom;
+		padding: 10px 20px;
+		margin-right: 10px;
+		border: 1px solid #1d1d1d;
+		border-radius: 5%;
+		-webkit-transition: 200ms;
+		-moz-transition: 200ms;
+		-o-transition: 200ms;
+		transition: 200ms;
+	}
+
+	.selected {
+		background-color: #1d1d1d;
+		color: #ececec;
+		cursor: pointer;
+	}
+
+	label.toggle:hover {
+		background-color: #1d1d1d;
+		color: #ececec;
+		cursor: pointer;
+	}
+
+	input:checked + label {
+		background-color: #1d1d1d;
+		color: #ececec;
+		cursor: pointer;
+	}
+	
+</style>
